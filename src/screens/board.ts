@@ -70,6 +70,16 @@ class Board extends HTMLElement{
                 li:hover {
                     transform: translateY(-4px) scale(1.02);
                 }
+                    .plano {
+                    display: grid;
+                    grid: repeat(5, 60px) / auto-flow 80px;
+}
+
+                    .plano > div {
+                    background-color: #8ca0ff;
+                    width: 50px;
+                    height: 50px;
+}
             </style>
 
             <div class="container">
@@ -77,6 +87,68 @@ class Board extends HTMLElement{
                 <div class="botones">
                     <button id="logout">Logout</button>
                 </div>
+                <div class="plano">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+</div>
         `
         
         this.shadowRoot.querySelector('#login')?.addEventListener('click', () => {

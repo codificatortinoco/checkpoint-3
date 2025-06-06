@@ -73,7 +73,6 @@ export const authActions = {
 
 export const blocksActions = {
   getBlocks: async () => {
-    console.log('HELLO, IM A FLAG!!');
     const blockData = await getBlocksDb();
     const blockList: Block[] = [];
     blockData.docs.forEach((doc: any) => {
