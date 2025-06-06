@@ -116,6 +116,7 @@ class Register extends HTMLElement {
                 const username = usernameInput.value;
                 const userLetter = userLetterSelect.value;
                 const userColor = userColorSelect.value;
+                           console.log("nao2")
 
                 authActions.register(username, userLetter, userColor);
                 
