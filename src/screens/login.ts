@@ -54,7 +54,6 @@ class Login extends HTMLElement {
             <div class="container">
                 <h1>LOGIN</h1>
                 <div class="botones">
-                    <button id="board">Board</button>
                     <button id="register">Register</button>
                 </div>
                 <form id="login-form">

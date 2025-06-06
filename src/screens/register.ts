@@ -55,11 +55,10 @@ class Register extends HTMLElement {
                 <h1>REGISTER</h1>
                 <div class="botones">
                     <button id="login">Login</button>
-                    <button id="Board">board</button>
                 </div>
                 <form id="register-form">
                     <input type="text" id="username" placeholder="Username" required />
-                    <select id="letter-type" required>
+                    <select id="user-letter" required>
                         <option value="A">A</option>
                         <option value="B">B</option>
                         <option value="C">C</option>
@@ -88,7 +87,7 @@ class Register extends HTMLElement {
                         <option value="Z">Z</option>
 
                     </select>
-                    <select id="color-type" required>
+                    <select id="user-color" required>
                         <option value="Red">Red</option>
                         <option value="Blue">Blue</option>
                         <option value="Yellow">Yellow</option>
